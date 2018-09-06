@@ -4,9 +4,11 @@ const firebase = require('firebase');
 const express = require('express')
 const app = express()
 
+var port = process.env.PORT || 8080;
+
 app.get('/', (req, res) => res.send('Hello World! :P'))
 
-app.listen(PORT, () => console.log('Example app listening on port 3000!'))
+app.listen(port, () => console.log('Example app listening on port 3000!'))
 
 // load values from the .env file in this directory into process.env
 dotenv.load();
