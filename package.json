@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sorawitt/SearchEnginee/issues"
   },
-  "homepage": "https://github.com/sorawitt/SearchEnginee#readme"
+  "homepage": "https://github.com/sorawitt/SearchEnginee#readme",
+  "dependencies": {
+    "algoliasearch": "^3.30.0",
+    "dotenv": "^6.0.0",
+    "firebase": "^5.4.2"
+  }
 }
