@@ -1,0 +1,19 @@
+{
+  "name": "searchenginee",
+  "version": "1.0.0",
+  "description": "Search Enginee for search name school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorawitt/SearchEnginee.git"
+  },
+  "author": "Sorawit.tr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorawitt/SearchEnginee/issues"
+  },
+  "homepage": "https://github.com/sorawitt/SearchEnginee#readme"
+}
