@@ -15,7 +15,12 @@ dotenv.load();
 
 // configure firebase
 firebase.initializeApp({
-  databaseURL: process.env.FIREBASE_DATABASE_URL,
+  apiKey: "AIzaSyDAbkqkxfD1OBwq2HuI--fXWXoE0vDXzeo",
+  authDomain: "parentsherotest.firebaseapp.com",
+  databaseURL: "https://parentsherotest.firebaseio.com",
+  projectId: "parentsherotest",
+  storageBucket: "parentsherotest.appspot.com",
+  messagingSenderId: "306898194272"
 });
 const database = firebase.database();
 
@@ -24,7 +29,7 @@ const algolia = algoliasearch(
   process.env.ALGOLIA_APP_ID,
   process.env.ALGOLIA_API_KEY
 );
-const index = algolia.initIndex(process.env.ALGOLIA_INDEX_NAME);
+const index = algolia.initIndex('school');
 
 // Get all contacts from Firebase
 database.ref('/school').once('value', schools => {
