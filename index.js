@@ -15,12 +15,7 @@ dotenv.load();
 
 // configure firebase
 firebase.initializeApp({
-  apiKey: "AIzaSyDAbkqkxfD1OBwq2HuI--fXWXoE0vDXzeo",
-  authDomain: "parentsherotest.firebaseapp.com",
-  databaseURL: "https://parentsherotest.firebaseio.com",
-  projectId: "parentsherotest",
-  storageBucket: "parentsherotest.appspot.com",
-  messagingSenderId: "306898194272"
+  databaseURL: "https://parentsherotest.firebaseio.com"
 });
 const database = firebase.database();
 
